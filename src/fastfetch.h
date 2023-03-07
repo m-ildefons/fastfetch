@@ -156,6 +156,7 @@ typedef struct FFconfig
     FFModuleArgs bluetooth;
     FFModuleArgs sound;
     FFModuleArgs gamepad;
+    FFModuleArgs editor;
 
     FFstrbuf libPCI;
     FFstrbuf libVulkan;
@@ -337,5 +338,6 @@ void ffPrintCommand(FFinstance* instance);
 void ffPrintBluetooth(FFinstance* instance);
 void ffPrintSound(FFinstance* instance);
 void ffPrintGamepad(FFinstance* instance);
+void ffPrintEditor(FFinstance* instance);
 
 #endif

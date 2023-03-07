@@ -13,6 +13,7 @@ Datetime
 DE
 Disk
 Display
+Editor
 Font
 GPU
 Host

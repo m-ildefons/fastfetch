@@ -116,6 +116,7 @@ static void defaultConfig(FFinstance* instance)
     initModuleArg(&instance->config.bluetooth);
     initModuleArg(&instance->config.sound);
     initModuleArg(&instance->config.gamepad);
+    initModuleArg(&instance->config.editor);
 
     ffStrbufInitA(&instance->config.libPCI, 0);
     ffStrbufInitA(&instance->config.libVulkan, 0);
@@ -379,6 +380,7 @@ static void destroyConfig(FFinstance* instance)
     destroyModuleArg(&instance->config.bluetooth);
     destroyModuleArg(&instance->config.sound);
     destroyModuleArg(&instance->config.gamepad);
+    destroyModuleArg(&instance->config.editor);
 
     ffStrbufDestroy(&instance->config.libPCI);
     ffStrbufDestroy(&instance->config.libVulkan);

@@ -252,6 +252,7 @@ set(LIBFASTFETCH_SRC
     src/detection/packages/packages.c
     src/detection/terminalfont/terminalfont.c
     src/detection/terminalshell/terminalshell.c
+    src/detection/editor/editor.c
     src/detection/vulkan/vulkan.c
     src/logo/builtin.c
     src/logo/image/im6.c
@@ -275,6 +276,7 @@ set(LIBFASTFETCH_SRC
     src/modules/datetime.c
     src/modules/de.c
     src/modules/disk.c
+    src/modules/editor.c
     src/modules/font.c
     src/modules/gpu.c
     src/modules/host.c
